@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 img {
     display: block;
     width: 100%;
@@ -7,18 +11,28 @@ img {
     margin: 0 auto;
     width: 50%;
     position: relative;
+    overflow: hidden;
     /*thing center in the screen*/
 
 }
 
+
 .card__text {
     background-color: rgba(0,0,0,0.3);
     color: #fff;
+    padding: 1em;
+    width:100%;
     position: absolute;
-    bottom: 0;
+    bottom: -4em;
+    opacity: 0;
+    transition: all 200ms linear;
 }
 
+.card:hover .card__text {
+    Bottom: 0;
+    opacity: 1;
 
+}
 
 .btn,
 .btn:link,
