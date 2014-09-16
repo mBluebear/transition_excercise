@@ -14,6 +14,8 @@ img {
     overflow: hidden;
     /*thing center in the screen*/
 
+    animation: slide-up 2000ms linear;
+
 }
 
 
@@ -32,6 +34,18 @@ img {
     Bottom: 0;
     opacity: 1;
 
+}
+
+@keyframes slide-up {
+    0% {
+        top: 10em;
+
+    }
+
+    100%{
+        top: 0;
+
+    }
 }
 
 .btn,
