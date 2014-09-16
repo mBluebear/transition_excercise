@@ -6,13 +6,16 @@ img {
 .card {
     margin: 0 auto;
     width: 50%;
+    position: relative;
     /*thing center in the screen*/
 
 }
 
-.card_text {
+.card__text {
     background-color: rgba(0,0,0,0.3);
     color: #fff;
+    position: absolute;
+    bottom: 0;
 }
 
 
