@@ -1,13 +1,22 @@
 .btn,
 .btn:link,
-.btn:visit {
+.btn:visited {
     display: inline-block;
-    adding: 0.5em 0.75 em;
+    padding: 0.5em 0.75em;
     border-radius: 6px;
     background-color: #f33;
     color: #fff;
     text-decoration: none;
     font-size: 3em;
+
+
+    /*
+    transition: which-property duration timing-function;
+
+    timing-function can be: linear, ease-in, ease-put, ease-in-out */
+
+
+    transition: background-color 1000ms linear;
 
 }
 
